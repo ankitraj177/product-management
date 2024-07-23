@@ -1,0 +1,33 @@
+{
+  "name": "product_management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "sync": "node ./models/syncDb.js",
+    "postman": "node ./helpers/postman.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.1",
+    "i": "^0.3.7",
+    "joi": "^17.13.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.3",
+    "nodemon": "^3.1.4",
+    "npm": "^10.8.2",
+    "sequelize": "^6.37.3",
+    "swagger": "^0.7.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
